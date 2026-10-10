@@ -11,8 +11,11 @@ export class CourseService {
   }
   create(): string {
   return 'Create Course - from Service';
-}
-update(id: string): string {
+  }
+  update(id: string): string {
   return `Update Course ${id} - from Service`;
+  }
+  patch(id: string): string {
+  return `Patch Course ${id} - from Service`;
 }
 }
