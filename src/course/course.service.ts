@@ -9,4 +9,7 @@ export class CourseService {
   findOne(id: string): string {
     return `Get Course with ID: ${id} - from Service`;
   }
+  create(): string {
+  return 'Create Course - from Service';
+}
 }
